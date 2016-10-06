@@ -17,7 +17,7 @@ define accounts::user(
   $gid                  = undef,
   $groups               = [ ],
   $membership           = 'minimum',
-  $password             = '!!',
+  $password             = undef,
   $locked               = false,
   $sshkeys              = [],
   $purge_sshkeys        = false,
